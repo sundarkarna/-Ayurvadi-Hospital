@@ -1,0 +1,284 @@
+.section-padding{
+    padding-top:100px;
+    padding-bottom:100px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn-green {
+    margin-top: 10px;
+    background-color: #7dc242;
+    color: white;
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.btn-green:hover{
+    background-color: #5a8b2e;
+    transform: scale(0.95);
+}
+
+
+.hero-section {
+    background-color: #f0ffe0;
+    padding: 60px 0;
+    text-align: center;
+
+}
+.hero-text {
+    
+    font-weight: bold;
+    color: #005a73;
+}
+#appoinment select{
+    backdrop-filter: blur(13px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius:5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.feature-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e6f7f1;
+}
+ 
+.feature-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    /* background-color: white;
+    padding:10px;
+    border-radius: 50%; */
+}
+nav{
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.4px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.card{
+    height: 100%;
+    box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.35);
+}
+
+.text-content h2 {
+    color: #006d91;
+    font-size:2rem;
+    font-weight: bolder;
+}
+.text-content p {
+    text-align: justify;
+    font-size:1.5rem;
+    color: #555;
+    line-height: 1.5;
+}
+.video-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    width: 400px;
+    height: 225px;
+    border: none;
+}
+
+#counters h1{
+    color: #38add4;
+    font-weight: bolder;
+    font-size:55px;
+}
+.counter-value{
+    transition: all 0.5s ease;
+}
+
+/* hospital-bannar section */
+#hospital-banner h2 {
+    color: #006d91;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.hospital {
+    text-align: center;
+}
+
+.hospital img {
+    width: 60px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hospital img:hover {
+    transform: scale(1.1);
+}
+
+.hospital p {
+    margin-top: 10px;
+    font-size:20px;
+    color: #333;
+}
+
+/* doctors section */
+.doctor-card {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.3);
+}
+.doctor-card img {
+    width: 200px;
+    height:300px;
+    object-fit:contain;
+    margin-bottom: 10px;
+}
+.doctor-card h5 {
+    font-weight: bold;
+}
+.doctor-card button {
+    width: 100%;
+    margin-top: 10px;
+}
+#doctors h2{
+    color: #006d91;
+}
+
+/* therapy section */
+#therapy h2{
+    color: #006d91;
+}
+.therapy-carousel {
+    text-align: center;
+}
+.therapy-card {
+    text-align: center;
+    padding: 10px;
+}
+.therapy-card img {
+    width:150px;
+    height:210px;
+    border-radius:5px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.therapy-card p {
+    font-weight: 500;
+    color: #555;
+    margin: 0;
+}
+
+/* contact section */
+
+#contact{
+    background: url('contact-background.jpg') no-repeat center center/cover;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.contact-form form {
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-form label {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.contact-form input {
+    width: 100%;
+    height: 50px;
+    padding:5px;
+    margin: 5px 0;
+    font-size:large;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.contact-form button {
+     
+    cursor: pointer;
+    background-color: #7dc242;
+    color: white;
+    border: none;
+    border-radius:5px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+ 
+/* Basic Footer Styling */
+.footer {
+    background-color:#003746;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ 
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+    color: #89df8c;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .footer-content {
+        padding: 10px;
+    }
+}
