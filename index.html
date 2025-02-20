@@ -1,0 +1,657 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurveda Hospital</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    <!-- navigation bar start -->
+    <nav class="navbar navbar-expand-lg p-3 fixed-top" data-aos="fade-down">
+        <div class="container">
+            <a class="navbar-brand" href="#"><strong><span style="color: green;">AyurVAID</span>: HOSPITALS</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">AyurVAID Care</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Health Information</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Hospitals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Insurance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <!-- navigation bar end -->
+
+    <!-- hero section start -->
+    <section class="hero-section" id="home">
+      
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-offset="100">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="container d-block w-100 " style="height:auto;">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h1 class="hero-text display-2">Finest Ayurveda Physicians Providing Highest Quality Precision Ayurveda Care</h1>
+                            <button class="btn-green mt-3">Know More</button>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="slide1.png" alt="Doctors with patient" class="img-fluid"  >
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container d-block w-100 " style="height:auto;">
+                  <div class="row align-items-center">
+                      <div class="col-md-6">
+                          <h1 class="hero-text display-2">Freedom from
+                            Elective Surgery,
+                            Steroids, Painkillers</h1>
+                          <button class="btn-green mt-3">Know More</button>
+                      </div>
+                      <div class="col-md-6">
+                          <img src="slide1.png" alt="Doctors with patient" class="img-fluid" >
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container d-block w-100 " style="height:auto;">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1 class="hero-text display-2">100% Cashless, Insurance-Backed Ayurveda
+                          Medical Care for All</h1>
+                        <button class="btn-green mt-3">Know More</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="slide1.png" alt="Doctors with patient" class="img-fluid">
+                    </div>
+                </div>
+              </div>
+          </div>
+             
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+    </section>
+  <!-- end hero section -->
+<!-- block of appointment -->
+    <section id="appoinment">
+      <div class="container">
+        <div class="row w-100 h-autom mx-auto rounded-3 overflow-hidden" style="background-color:  #7dc242;">
+          <div class="col-lg-8">
+            <div class="row p-3 p-lg-4" style="background-color:  #005a73;">
+              <div class="col-lg-4">
+                <div>
+                  <select class="form-select">
+                    <option>Select Location</option>
+                    <option value="Ariyalur">Ariyalur</option>
+                    <option value="Chengalpattu">Chengalpattu</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Cuddalore">Cuddalore</option>
+                    <option value="Dharmapuri">Dharmapuri</option>
+                    <option value="Dindigul">Dindigul</option>
+                    <option value="Erode">Erode</option>
+                    <option value="Kallakurichi">Kallakurichi</option>
+                    <option value="Kanchipuram">Kanchipuram</option>
+                    <option value="Kanyakumari">Kanyakumari</option>
+                    <option value="Karur">Karur</option>
+                    <option value="Krishnagiri">Krishnagiri</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Mayiladuthurai">Mayiladuthurai</option>
+                    <option value="Nagapattinam">Nagapattinam</option>
+                    <option value="Namakkal">Namakkal</option>
+                    <option value="Nilgiris">Nilgiris</option>
+                    <option value="Perambalur">Perambalur</option>
+                    <option value="Pudukkottai">Pudukkottai</option>
+                    <option value="Ramanathapuram">Ramanathapuram</option>
+                    <option value="Ranipet">Ranipet</option>
+                    <option value="Salem">Salem</option>
+                    <option value="Sivaganga">Sivaganga</option>
+                    <option value="Tenkasi">Tenkasi</option>
+                    <option value="Thanjavur">Thanjavur</option>
+                    <option value="Theni">Theni</option>
+                    <option value="Thoothukudi">Thoothukudi</option>
+                    <option value="Tiruchirappalli">Tiruchirappalli</option>
+                    <option value="Tirunelveli">Tirunelveli</option>
+                    <option value="Tirupathur">Tirupathur</option>
+                    <option value="Tiruppur">Tiruppur</option>
+                    <option value="Tiruvallur">Tiruvallur</option>
+                    <option value="Tiruvannamalai">Tiruvannamalai</option>
+                    <option value="Tiruvarur">Tiruvarur</option>
+                    <option value="Vellore">Vellore</option>
+                    <option value="Viluppuram">Viluppuram</option>
+                    <option value="Virudhunagar">Virudhunagar</option>
+                  </select>
+                </div> 
+              </div>
+              <div class="col-lg-4">
+                <div>
+                  <select class="form-select">
+                    <option>Select Hospital</option>
+                    <option value="">Hospital 1</option>
+                    <option value="">Hospital 2</option>
+                    <option value="">Hospital 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div>
+                  <select class="form-select">
+                    <option>Select Doctor</option>
+                    <option>Doctor Karuna</option>
+                    <option>Doctor Jeeva</option>
+                    <option>Doctor Ashok</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+              <div class=" text-white text-center w-100 h-100 d-flex justify-content-center align-items-center">
+                <h3><a href="">Book An Appointment</a></h3>
+              </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <!-- end block of appointment -->
+     <!-- feature section start -->
+    <section class="mt-5">
+      <div class="container">
+          <div class="row text-center d-flex justify-content-center g-3">  
+            <div class=" col-6 col-lg-3">
+              <div class="feature-box h-100" style="background-color:#d3e7f7;">
+                <img src="doctor.png" alt="Our Doctors">
+                <h5>Our Doctors</h5>
+              </div>
+            </div>
+            <div class=" col-6 col-lg-3">
+              <div class="feature-box h-100">
+                <img src="special.png" alt="Specializations & Conditions">
+                <h5>Specializations & Conditions</h5>
+              </div>
+                
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="feature-box h-100"  style="background-color: #d3e7f7;">
+                <img src="insurance.png" alt="100% Insurance Backed">
+                <h5>100% Insurance Backed</h5>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="feature-box h-100">
+                <img src="hospital.png" alt="Our Hospitals">
+                <h5>Our Hospitals</h5>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- end feature section -->
+    <!-- diseases and condition section start -->
+    <section class="mt-5 section-padding">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6">
+              <img src="slide1.png" alt="Diseases and Conditions" class="img-fluid"  data-aos="fade-right">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h2 class="mb-5 text-center"  data-aos="fade-left" >Diseases & Conditions</h2>
+            <div class="cards d-flex flex-column justify-content-center"  data-aos="fade-left" data-bs-offset="1000">
+              <div class="row mb-2 g-2">
+                <div class="col-6 col-lg-6">
+                    <div class="disease-card h-100">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title mb-2">Orthopedic Disorders</h5>
+                          <p class="card-text"> Osteoarthritis, Rheumatoid Arthritis, Low Back Pain, Sciatica.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-6">
+                    <div class="disease-card h-100">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title mb-2">Gynecology</h5>
+                          <p class="card-text">PCOS, Pre-Menstrual Syndrome, Infertility, Menopause.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row mb-2 g-2">
+                <div class="col-6 col-lg-6">
+                    <div class="disease-card h-100">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title mb-2">Gastrointestinal Disorders</h5>
+                          <p class="card-text"> IBS, IBD, GERD, Ulcerative Colitis, Crohn’s Disease.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-6">
+                  <div class="disease-card h-100">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">Oncology (Integrative)</h5>
+                        <p class="card-text">Cancer, Integrative Cancer Rehabilitation Program (ICRP).</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-2 g-2">
+                <div class="col-6 col-lg-6">
+                    <div class="disease-card h-100">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title mb-2">Endocrinology</h5>
+                          <p class="card-text">  Diabetes, Thyroid, Obesity, Diabetes Complications.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-6">
+                  <div class="disease-card h-100">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">Neurological Disorders</h5>
+                        <p class="card-text"> Parkinson’s, Stroke Rehab, Muscular Dystrophy.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <button class="btn-green w-50">View All Ailments</button>
+          </div>
+        </div>
+      </div>
+    </section> 
+<!-- end diseases section -->
+ <!-- about section start -->
+    <section class="m-5">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-content">
+                  <h2>India's Biggest Chain of Precision Ayurveda Hospitals</h2>
+                  <p  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="500">
+                      Leader in Precision Ayurveda and Pioneer in Integrative Medicine, we deliver personalized, whole-person care 
+                      with root-cause diagnosis and precise interventions aimed at reversing disease etiopathogenesis. 
+                      Our protocols-driven approach, supported by diligent documentation, ensures patient safety and exceptional 
+                      clinical outcomes for sustained well-being. Apollo AyurVAID Hospitals is approved by all leading medical 
+                      insurance companies and TPAs for cashless Ayurveda medical care.
+                  </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="video-container h-100">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+              </div>
+            </div>
+        </div>  
+      </div>
+    </section>
+
+    <section class="mt-5 mb-5" id="counters">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="display-5">
+              Why choose AyurVAID Hospitals?
+            </h2>
+          </div>
+          <div class="col-lg-8">
+            <div class="container d-flex justify-content-around flex-column flex-lg-row align-items-center">
+                <div class="row w-100">
+                    <div class="col-6">
+                        <div class="counters">
+                            <h1><span class="counter-value">10</span></h1>
+                            <p>Hospitals<br>across India</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="counter">
+                            <h1><span class="counter-value">4</span>L+</h1>
+                            <p>Patients Served<br>Till Date</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-6">
+                        <div class="counters">
+                            <h1><span class="counter-value">90.8</span>%</h1>
+                            <p>Patient<br>Satisfaction Score</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="counter">
+                            <h1><span class="counter-value">100</span>+</h1>
+                            <p>Ayurveda Inpatient<br>Beds Across Country</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+  <!-- end about section -->
+  <!-- hospital banner start -->
+    <section class="section-padding" id="hospital-banner" style="background-color: #eef5ed;">
+
+      <div class="container" >
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="text-center mb-5">Find a Hospital Near You</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-lg-6">
+              <div class="hospital-list d-flex justify-content-around w-100 ">
+                  <div class="hospital">
+                    <img src="bengaluru.png" alt="Bengaluru" data-aos="zoom-in"  data-aos-easing="linear"  data-aos-duration="500">
+                    <p>Bengaluru</p>
+                  </div>
+                  <div class="hospital">
+                    <img src="chennai.png" alt="Chennai" data-aos="zoom-in"  data-aos-easing="linear"  data-aos-duration="1000">
+                    <p>Chennai</p>
+                  </div>
+                  <div class="hospital">
+                    <img src="kerala.png" alt="Kerala" data-aos="zoom-in"  data-aos-easing="linear" data-aos-duration="1500">
+                    <p>Kerala</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hospital-list d-flex justify-content-around w-100 " >
+              <div class="hospital">
+                <img src="new-delhi.png" alt="New Delhi" data-aos="zoom-in"  data-aos-easing="linear" data-aos-duration="2000"> 
+                <p>New Delhi</p>
+              </div>
+              <div class="hospital">
+                  <img src="gurugram.png" alt="Gurugram" data-aos="zoom-in"  data-aos-easing="linear" data-aos-duration="2500"> 
+                  <p>Gurugram</p>
+              </div>
+              <div class="hospital">
+                  <img src="almora.png" alt="Almora" data-aos="zoom-in"  data-aos-easing="linear" data-aos-duration="3000">
+                  <p>Almora</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- hospital banner end -->
+
+  <!-- Doctor's section -->
+    <section class="section-padding" id="doctors">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="fw-bolder text-center fs-1">Dedicated Professionals<br>
+                Committed to Your Well-being</h2>
+            </div>
+          </div>
+
+          <div class="container mt-4">
+            <div class="owl-carousel owl-theme">
+                <!-- Doctor 1 -->
+                <div class="item">
+                    <div class="doctor-card">
+                        <img src="doctor1.jpg" alt="Dr. Zankhana M Buch">
+                        <h5>Dr. Zankhana M Buch</h5>
+                        <p>BAMS, MD (Kayachikitsa)<br>Bengaluru</p>
+                        <button class="btn btn-primary">Call 89512 44003</button>
+                        <button class="btn btn-outline-primary">Book an Appointment</button>
+                    </div>
+                </div>
+                
+                <!-- Doctor 2 -->
+                <div class="item">
+                    <div class="doctor-card">
+                        <img src="doctor2.jpg" alt="Dr. Bheema Bhatta">
+                        <h5>Dr. Bheema Bhatta</h5>
+                        <p>BAMS, MD (Panchakarma)<br>Delhi-NCR</p>
+                        <button class="btn btn-primary">Call 89512 44003</button>
+                        <button class="btn btn-outline-primary">Book an Appointment</button>
+                    </div>
+                </div>
+                
+                <!-- Doctor 3 -->
+                <div class="item">
+                    <div class="doctor-card">
+                        <img src="doctor3.jpg" alt="Dr. Shrinivasa Pandey">
+                        <h5>Dr. Shrinivasa Pandey</h5>
+                        <p>BAMS, MD (Kayachikitsa)<br>Delhi-NCR</p>
+                        <button class="btn btn-primary">Call 89512 44003</button>
+                        <button class="btn btn-outline-primary">Book an Appointment</button>
+                    </div>
+                </div>
+                
+                <!-- Add more doctors as needed -->
+            </div>
+          </div>
+        </div>
+    </section>
+<!-- doctor's section end -->
+<!-- therapy section start -->
+
+    <section class="section-padding" id="therapy" style="background-color: #eef5ed;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="fw-bold text-center fs-1 my-3">Popular Ayurveda Therapies</h2>
+            </div>
+          </div>
+
+          <div class="container mt-4">
+            <div class="owl-carousel owl-theme therapy-carousel">
+                <div class="item therapy-card">
+                    <img src="virechana.jpg" alt="Virechana" >
+                    <p>Virechana</p>
+                </div>
+                <div class="item therapy-card">
+                    <img src="udwartana.jpg" alt="Udwarthana">
+                    <p>Udwarthana</p>
+                </div>
+                <div class="item therapy-card">
+                    <img src="abhyangam.jpg" alt="Abhyangam">
+                    <p>Abhyangam</p>
+                </div>
+                <div class="item therapy-card">
+                    <img src="panchakarma.jpg" alt="Panchakarma">
+                    <p>Panchakarma</p>
+                </div>
+                <div class="item therapy-card">
+                    <img src="sirodhara.jpg" alt="Shirodhara">
+                    <p>Shirodhara</p>
+                </div>
+                <div class="item therapy-card">
+                    <img src="vamana.jpg" alt="Vamana">
+                    <p>Vamana</p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+<!-- therapy section end -->
+
+<!-- contact section start -->
+
+<section class="section-padding d-flex align-items-center" id="contact">
+  <div class="container text-white fw-bold display-1">
+      <div class="row justify-content-lg-start justify-content-center">
+          <div class="col-lg-5 col-md-8 col-sm-10">
+              <div class="contact-container p-4 w-100 h-100">
+                  <div class="contact-form w-100 h-100">
+                      <h1 class="text-center">Contact Us</h1>
+                      <form class="w-100 h-100">
+                          <label for="name" class="form-label">NAME*</label>
+                          <input type="text" id="name" name="name" required>
+
+                          <label for="email" class="form-label">EMAIL ADDRESS*</label>
+                          <input type="email" id="email" name="email" required>
+
+                          <label for="phone" class="form-label">PHONE NUMBER*</label>
+                          <input type="tel" id="phone" name="phone" required>
+
+                          <button type="submit" class="btn btn-green w-100 mt-auto">STAY IN TOUCH</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- contact section end -->
+    <!-- footer section start -->
+    <footer class="footer">
+       <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                <p>&copy; 2025 Your Company. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+              </div>
+          </div>
+        </div>  
+  </footer>
+  <!-- footer section end -->
+  
+ <!-- jQuery and Bootstrap Bundle -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!-- Owl Carousel JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+          $(".therapy-carousel").owlCarousel({
+              loop: true,
+              margin: 20,
+              nav: false,  // Enable navigation arrows
+              dots: true,
+              autoplay: true,
+              autoplayTimeout: 2500,
+              autoplayHoverPause: true,
+              responsive: {
+                  0: { items: 1 },     // 1 item on mobile
+                  600: { items: 2 },   // 2 items on small screens
+                  1000: { items: 3 },  // 3 items on medium screens
+                  1400: { items: 5 }   // 5 items on large screens
+              }
+          });
+      });
+    </script>
+   <script>
+       $(document).ready(function(){
+           $(".owl-carousel").owlCarousel({
+               loop: true,
+               margin: 20,
+               nav: false,
+               autoplay: true,
+               autoplayTimeout: 3000,
+               autoplayHoverPause: true,
+               responsive: {
+                   0: { items: 1 },
+                   600: { items: 2 },
+                   1000: { items: 3 }
+               }
+           });
+       });
+   </script>
+
+  <!-- main js -->
+  <script>
+          document.addEventListener("DOMContentLoaded", function () {
+        // Function to animate the counter
+        function animateCounter(element, start, end, duration) {
+            let range = end - start;
+            let current = start;
+            let increment = range / (duration / 100); // Increment based on duration
+            let step = () => {
+                current += increment;
+                if (current <= end) {
+                    element.textContent = current.toFixed(1); // Format the number to one decimal
+                    requestAnimationFrame(step); // Call step again to continue the animation
+                } else {
+                    element.textContent = end; // Ensure we reach the target value
+                }
+            };
+            step(); // Start the animation
+        }
+
+        // Get all counter elements
+        const counters = document.querySelectorAll('.counter-value');
+
+        // Create an IntersectionObserver to trigger the counter animation when it comes into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Trigger the animation for this counter if not already animated
+                    const counter = entry.target;
+                    if (!counter.hasAttribute('data-animated')) { // Check if already animated
+                        counter.setAttribute('data-animated', 'true');
+                        // Animate based on the initial number and the desired end number
+                        if (counter.classList.contains('counter-value')) {
+                            if (counter.textContent === '10') animateCounter(counter, 0, 10, 10000);
+                            if (counter.textContent === '4') animateCounter(counter, 0, 4, 10000);
+                            if (counter.textContent === '90.8') animateCounter(counter,80, 90.8, 10000);
+                            if (counter.textContent === '100') animateCounter(counter,80, 100, 10000);
+                        }
+                    }
+                }
+            });
+        }, { threshold: 0.5 }); // Trigger when 50% of the element is in view
+
+        // Observe each counter element
+        counters.forEach(counter => observer.observe(counter));
+    });
+  </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
